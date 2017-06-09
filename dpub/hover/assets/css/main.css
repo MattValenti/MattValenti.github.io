@@ -1,0 +1,31 @@
+
+.number {
+  width: 10px;
+  border: 1px solid red;
+  padding: 2px;
+  color: red;
+  display: block;
+}
+
+.number.hover {
+  background-color: red;
+  color: #fff;
+}
+
+.footnote{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-family: arial;
+  display:none;
+}
+
+.footnote.showme{
+display: block;
+}
+
+.metahaven.orange {
+  color: orange;
+  font-size: 12px;
+  transition: 2s;
+}
